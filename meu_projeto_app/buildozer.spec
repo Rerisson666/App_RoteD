@@ -22,7 +22,7 @@ version = 0.1
 requirements = python3,kivy,flask,kivymd
 
 # (str) Custom source folders for requirements
-#source.include_exts = custom_src
+# source.include_exts = custom_src
 
 # (str) The path to the key used for signing your application
 # (if you are not using buildozer to sign the APK)
@@ -37,21 +37,12 @@ requirements = python3,kivy,flask,kivymd
 # (21 by default)
 # android.ndk = 21b
 
-# (bool) Use different java package for each arch (can be useful to avoid crashes)
-# android.arch = armeabi-v7a
-
-# (bool) Enable android logcat
-android.logcat = True
-
 # (list) Permissions
 # comma separated e.g. android.permissions = INTERNET,ACCESS_FINE_LOCATION
 android.permissions = INTERNET
 
 # (str) Android packaging backend
 # android.p4a_whitelist = requirements.txt
-
-# (bool) android: append # (default=1)
-# android.p4a = True
 
 # (str) orientation of the application
 #  choices: portrait, landscape, sensor, etc.
